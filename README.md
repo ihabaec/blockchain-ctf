@@ -179,12 +179,6 @@ Reentrancy attacks occur when:
 2. **ReentrancyGuard**: Use OpenZeppelin's ReentrancyGuard modifier
 3. **Pull over Push**: Use withdrawal patterns instead of direct transfers
 
-### Additional Reading
-
-- [SWC-107: Reentrancy](https://swcregistry.io/docs/SWC-107)
-- [The DAO Hack](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao)
-- [OpenZeppelin ReentrancyGuard](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard)
-
 ## Security Warning
 
 **EDUCATIONAL PURPOSES ONLY**
